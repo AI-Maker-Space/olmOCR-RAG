@@ -1,0 +1,19 @@
+[project]
+name = "olmocr-rag"
+version = "0.1.0"
+description = "RAG pipeline for D&D documents using LangChain"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flashinfer-python",
+    "olmocr[gpu]>=0.1.58",
+    "langchain>=0.3.14",
+    "langchain-community>=0.3.14",
+    "langchain-openai>=0.3.0",
+    "langchain-text-splitters>=0.3.4",
+    "chromadb>=0.5.23",
+    "python-dotenv>=1.0.1",
+]
+
+[tool.uv.sources]
+flashinfer-python = { url = "https://download.pytorch.org/whl/cu128/flashinfer/flashinfer_python-0.2.5%2Bcu128torch2.7-cp38-abi3-linux_x86_64.whl" }
