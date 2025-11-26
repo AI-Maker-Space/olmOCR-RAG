@@ -16,5 +16,11 @@ wheels/
 # Vector store
 .chroma_db/
 
-# .md files (generated from PDFs)
-*.md
+# .md files (generated from PDFs in PDFs folder)
+PDFs/*.md
+
+# uv.lock file
+uv.lock
+
+# output directory and subdirectories
+output/

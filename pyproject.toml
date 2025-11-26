@@ -15,6 +15,7 @@ dependencies = [
     "python-dotenv>=1.0.1",
     "ipykernel>=6.29.0",
     "img2pdf>=0.6.3",
+    "jupyter>=1.1.1",
 ]
 
 [tool.uv.sources]
